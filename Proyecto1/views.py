@@ -25,3 +25,5 @@ def probandoTemplate(request):
     notas= [2,2,3,7,2,5]
     contexto = {"nombre": nombre, "edad": edad, "dia": dia, "notas": notas}
     return render(request, "templates1.html", contexto)
+
+# estoy probando git
