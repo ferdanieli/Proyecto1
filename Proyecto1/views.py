@@ -18,7 +18,7 @@ def miNombreEs(self, nombre):
     documentodetexto = f"Mi nombre es: <br> {nombre}"
     return HttpResponse(documentodetexto)
 
-# def probandoTemplate(request):
+def probandoTemplate(request):
     nombre = "Fer"
     edad = 45
     dia = datetime.datetime.now()
